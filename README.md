@@ -9,3 +9,9 @@
 - Git diff: vê as linhas modificadas e mantidas
 - Git commit -m "": alterações prontas para salvar o estado desse projeto, fazendo um snapshot dele
 - Git log: Mostra o historico de alterações
+- Git push: Manda para a branch do github
+- Git pull: Pega as alterações do repositorio remoto e fazer um merge
+- Comando git fetch: verifica o que está no repositorio remoto que é diferente do meu
+- Comando git diff: mostra a mudança que foi feita no repositorio
+
+*teste pull
