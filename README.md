@@ -14,4 +14,4 @@
 - Comando git fetch: verifica o que está no repositorio remoto que é diferente do meu
 - Comando git diff: mostra a mudança que foi feita no repositorio
 
-*teste pull
+*teste modificacao de outro pc
