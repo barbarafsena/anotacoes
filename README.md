@@ -18,3 +18,12 @@
 `Git checkout nome_da_branch:` Joga a HEAD para a branch que você quer <br>
 `Git branch:` Mostra todas as branches existentes <br>
 `Git merge nome_da_branch:` Juntas as branches para a branch atual (a que está a HEAD está apontando no momento) <br>
+
+## Algoritmos
+
+Pseudo-cógido: Como se fosse um código, utilizando linguagem do dia a dia, mas não um código executável.
+
+Algoritmo
+
+Início => Entrada (nome da pessoa) => Processamento (passo a passo) => saída (Bom dia, nome da pessoa) => final
+
