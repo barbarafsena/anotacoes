@@ -1,4 +1,4 @@
-# Anotações
+# Anotações - Estudos
 
 ## GIT: Estados do GIT (cmd: git status)
 **Unmodified:** Está salvo no último commit, commitados e vistos pelo Git. <br>
@@ -19,11 +19,14 @@
 `Git branch:` Mostra todas as branches existentes <br>
 `Git merge nome_da_branch:` Juntas as branches para a branch atual (a que está a HEAD está apontando no momento) <br>
 
-## Algoritmos
+## Kanban
+### Erros mais comuns
+- Andar contra o fluxo
+- Ter uma coluna para on hold
+- Não ter limite para WIP
+- Não mapear todos os itens de trabalho
 
-Pseudo-cógido: Como se fosse um código, utilizando linguagem do dia a dia, mas não um código executável.
 
-Algoritmo
 
-Início => Entrada (nome da pessoa) => Processamento (passo a passo) => saída (Bom dia, nome da pessoa) => final
+
 
