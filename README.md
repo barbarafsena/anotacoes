@@ -25,7 +25,7 @@
 - Ter uma coluna para on hold
 - Não ter limite para WIP
 - Não mapear todos os itens de trabalho
-
+<hr><br>
 - Sistema puxado: Para entrar mais trabalho num sistema, algo tem que sair.
 
 
