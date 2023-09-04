@@ -26,7 +26,7 @@
 - Não ter limite para WIP
 - Não mapear todos os itens de trabalho
 
-
+- Sistema puxado: Para entrar mais trabalho num sistema, algo tem que sair.
 
 
 
