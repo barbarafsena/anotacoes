@@ -28,5 +28,11 @@
 <hr><br>
 - Sistema puxado: Para entrar mais trabalho num sistema, algo tem que sair.
 
+## Agilidade: promovendo a transformação ágil
+###  Por que surgiu o método ágil?
+- Surgiu de outras engenharias. A engenharia de software por ser uma engenharia que veio depois de outras, herdou muito do mindset de outras engenharias.
+- Engenharia civil: Análise -> fundação -> pilares | Nada muda, não tem como alterar a planta. (Waterfall) Assim, a engenharia de software, seguiu esse tipo de projeto dividido em fases.
+- Não é interessante para o desenvolvimento de software, as coisas mudam e o cliente quer mudanças. Ao seguir o modelo Waterfall, não há como voltar.
+
 
 
