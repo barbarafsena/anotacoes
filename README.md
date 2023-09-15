@@ -37,9 +37,10 @@
 ###  Diferenças agile x waterfall
 - Na metodologia ágil, não se define tudo a priori, se faz aos poucos.
 - Não é priorizado por etapa, faz um pouco de cada etapa o tempo todo p/ ter a resposta do cliente o tempo todos.
+- <b>Principais diferenças:</b> priorização, fluxo e feedback.
 <hr>
 <br>
-- <b>Principais diferenças:</b> priorização, fluxo e feedback.
+
 
 
 
