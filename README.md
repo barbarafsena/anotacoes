@@ -34,5 +34,14 @@
 - Engenharia civil: Análise -> fundação -> pilares | Nada muda, não tem como alterar a planta. (Waterfall) Assim, a engenharia de software, seguiu esse tipo de projeto dividido em fases.
 - Não é interessante para o desenvolvimento de software, as coisas mudam e o cliente quer mudanças. Ao seguir o modelo Waterfall, não há como voltar.
 
+###  Diferenças agile x waterfall
+- Na metodologia ágil, não se define tudo a priori, se faz aos poucos.
+- Não é priorizado por etapa, faz um pouco de cada etapa o tempo todo p/ ter a resposta do cliente o tempo todos.
+<hr>
+<br>
+- <b>Principais diferenças:</b> priorização, fluxo e feedback.
+
+
+
 
 
