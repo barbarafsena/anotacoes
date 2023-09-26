@@ -7,6 +7,8 @@
 **Untracked:** Não rastreado. <br><br>
 ![lifecycle](https://github.com/barbarafsena/anotacoes/assets/104398945/3400b7a9-de66-4518-9350-109740a53337)
 <br><br>
+
+## GIT: Comandos
 `Git init:` Para inicializar um repositório do Git. <br>
 `git config`: Informa quem é você para que ele armazene corretamente os dados do autor de cada uma das alterações no código <br>
 - git config --local user.name "Seu nome aqui"<br>
