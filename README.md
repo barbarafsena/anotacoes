@@ -10,13 +10,21 @@
 `Git init:` Para inicializar um repositório do Git. <br>
 `git config`: Informa quem é você para que ele armazene corretamente os dados do autor de cada uma das alterações no código <br>
 - git config --local user.name "Seu nome aqui"<br>
-- git config --local user.email "seu@email.aqui"<br><br>
+- git config --local user.email "seu@email.aqui" <br><br>
 `Git status`: Mostra o estado do nosso repositório, ou seja, quais arquivos foram alterados, ou não. <br>
 `Git add:` Adiciona um arquivo para ser monitorado.
 `Git commit -m:` Commita, salva as modificações.
+<br>
+
+- Existe um arquivo especial do Git, chamado **.gitignore**, e todas as linhas que estiverem nele serão lidos e ignorados pelo Git. Se temos um arquivo denominado **ide-config** que queremos que seja ignorado, por exemplo, basta o incluirmos em **.gitignore**, digitando **ide-config** simplesmente. Da mesma forma, se tivéssemos uma pasta ide, incluiríamos **ide/**, em uma nova linha.
+
+![image](https://github.com/barbarafsena/anotacoes/assets/104398945/1146a6ea-0c96-4828-9461-1457b5499da9)
+
+- **Obs.:** Precisaremos adicioná-lo, com git add .gitignore e git commit -m "Adicionando .gitignore"
+
 `Git diff:` vê as linhas modificadas e mantidas. <br>
 `Git commit -m "":` alterações prontas para salvar o estado desse projeto, fazendo um snapshot dele. <br>
-`Git log:` Mostra o historico de alterações. <br>
+`Git log:` Mostra o historico de alterações, cada mensagem de commits feitos, o andamento do projeto. <br>
 `Git push:` Manda para a branch do github. <br>
 `Git pull:` Pega as alterações do repositorio remoto e fazer um merge. <br>
 `Comando git fetch:` verifica o que está no repositorio remoto que é diferente do meu. <br>
