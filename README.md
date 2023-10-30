@@ -41,6 +41,8 @@
 `git remoto rename origin local:` Troca o nome do repositório remoto de ORIGIN para LOCAL. <br>
 `git push LOCAL [nome do repositorio remoto] MASTER [branch do repositorio remoto]:` Envia os dados para a branch do servidor remoto. <br>
 `git pull LOCAL [nome do repositorio remoto] MASTER [branch do repositorio remoto]:` Trás os dados da branch do servidor remoto para o meu repositório local. <br>
+`git push -u ORIGIN [nome do repositorio remoto] MASTER [branch do repositorio remoto]:` É muito comum que o nome do repositório remoto seja ORIGIN. O -u indica que sempre iremos dar push para esse repositorio e branch, por isso é bom retirá-lo do comando. <br>
+
 
 ## Comandos git bash
 - O sinal **~/** acompanhado do nome do diretório informa que qualquer comando que eu inserir no terminal, vai estar relacionado ao diretório “/c/Users/Alura/Desktop” ou seja, no diretório Desktop.
