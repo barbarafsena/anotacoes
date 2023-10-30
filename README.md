@@ -36,6 +36,11 @@
 `Git checkout nome_da_branch:` Joga a HEAD para a branch que você quer. <br>
 `Git branch:` Mostra todas as branches existentes. <br>
 `Git merge nome_da_branch:` Juntas as branches para a branch atual (a que está a HEAD está apontando no momento). <br>
+`git init --bare:` Cria um repositório que não terá a working tree, ou seja, não conterá uma cópia dos nossos arquivos. O repositório servirá apenas como servidor, para que outros membros da equipe sincronizem seus trabalhos. <br>
+`git remote add nome-repositorio caminho/para/o/repositorio:` Ligação entre os repositórios: o local e o servidor.<br>
+`git remoto rename origin local:` Troca o nome do repositório remoto de ORIGIN para LOCAL. <br>
+`git push LOCAL [nome do repositorio remoto] MASTER [branch do repositorio remoto]:` Envia os dados para a branch do servidor remoto. <br>
+`git pull LOCAL [nome do repositorio remoto] MASTER [branch do repositorio remoto]:` Trás os dados da branch do servidor remoto para o meu repositório local. <br>
 
 ## Comandos git bash
 - O sinal **~/** acompanhado do nome do diretório informa que qualquer comando que eu inserir no terminal, vai estar relacionado ao diretório “/c/Users/Alura/Desktop” ou seja, no diretório Desktop.
