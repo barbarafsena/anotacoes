@@ -48,7 +48,7 @@
 `Git checkout -- nome_do_arquivo`: Descarta as alterações que ainda não foram commitadas. <br>
 `Git reset HEAD nome_do_arquivo`: Descarta as alterações após ter dado git add no arquivo. <br>
 `Git revert hash_do_commit`: Desfaz um commit já realizado. <br>
-`Git stash`: Guarda a alteração para depois ser trabalho novamente. <br>
+`Git stash`: Guarda a alteração para depois ser trabalhado novamente. <br>
 `Git list`: Lista os stashes. <br>
 `Git stash apply numero_do_stash_depois_do_@`: Recupera o trabalho com as alterações guardadas. <br>
 `Git stash drop`:  Remove <br>
@@ -57,7 +57,36 @@
 `Git diff hash_do_commit.. hash_do_commit:` mostra as diferenças entre dois commits. <br>
 `Git tag -a (add) v0.1.0 -m "lançando a primeira versão":` Cria uma tag que indica a versão da aplicação. <br>
 `Git tag:` São exibidos todos marcos disponíveis. <br>
-`Git push origin v0.1.0:` Envia a tag ao servidor. Isso gera uma Release no Github, ou seja, conseguimos baixar um arquivo compactado com o nosso código neste ponto <br>
+`Git push origin v0.1.0:` Envia a tag ao servidor. Isso gera uma Release no Github, ou seja, conseguimos baixar um arquivo compactado com o nosso código neste ponto. <br>
+`Git rebase -i (interativa) HEAD~3`: Head => a partir de agora, quero unir os últimos 3 commits => ~3 <br>
+`Git cherry-pick 8f7c801:`  Traz um único commit específico de outra branch para a branch em que estamos trabalhando. <br>
+`Git bisect:` !!! <br>
+`Git blame:` Mostra qual pesssoa fez a alteração das linhas. <br>
+
+## Como achar em qual momento da linha do tempo ocorreu uma alteração específica 
+
+- Execute o comando git bisect start para informar ao Git que você vai iniciar uma busca por determinada alteração; <br>
+
+- Execute o comando git bisect bad HEAD para informar que o estado atual do código está "ruim", ou seja, o título não está no estado que você quer; <br>
+
+- Executando git log --oneline, copie o hash do commit com a mensagem "Simplificando o título"; <br>
+
+- Execute o comando git bisect good {hash}, substituindo {hash} pelo hash copiado no passo anterior, para informar que o estado atual do código está "bom", ou seja, o título está no estado que você quer; <br>
+
+- Confira no código que agora o título está como você quer; <br>
+
+- Execute git bisect good para informar ao Git que neste commit o código ainda está como você quer; <br>
+
+- Confira no código que agora o título não está mais como você quer; <br>
+
+- Execute git bisect bad para informar ao Git que neste commit o código não está mais como você quer; <br>
+
+- Note que o Git encontrou o exato commit onde o título deixou de estar no estado em que você quer; <br>
+
+- Execute git bisect reset para indicar que você finalizou a busca; <br>
+
+- Execute o comando git show {hash}, substituindo {hash} pelo hash conferido no passo 30. Veja que é exatamente a alteração que você estava buscando; <br>
+
 ## Diferença rebase vs merge
 O `merge` integra o conteúdo da branch de trabalho (por exemplo titulo ou lista) com a branch master. Nesse caso apenas a branch master é alterada para adicionar as mudanças e o histórico da branch de trabalho permanece inalterado e um novo commit dessa junção é adicionado ao histórico. <br><br>
 <b>Exemplo merge:</b>
